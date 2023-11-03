@@ -25,7 +25,8 @@
 					<li><a href="#contactContainer">Contact</a></li>
 				</ul>
 				<p><a href="#">Sign in</a></p>
-				<button id="register"><a href="#">Register</a></button>
+				<button id="register" onclick="reg()"><a href="#">Register</a></button>
+				
 			</div>
 			<!--Home screen-->
 			<section class="heroContainer">
@@ -161,5 +162,17 @@
 		</section>
 	</main>
 	<script src="https://kit.fontawesome.com/ae0471a37d.js" crossorigin="anonymous"></script>
+	<script>
+		function reg(){
+			let name = prompt("Hello There!","Enter name:")
+				if(name == null |name == "") {
+				alert("You did not enter any details, pleasde try again!")
+				}else{
+				alert("Successful")
+				}
+
+			}
+			
+	</script>
 </body>
 </html>
