@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title>ShipBox Logistics</title>
+</head>
+
+<body>
+	<main class="mainContainer">
+		<!--Home section-->
+		<section id="homeContainer">
+			<!--nav bar-->
+			<div class="navContainer">
+				<h1 class="navText">Ship<span>Box</span></h1>
+				<ul class="navWrapper">
+					<li><a href="homeContainer">Home</a></li>
+					<li><a href="#serviceContainer">Services</a></li>
+					<li><a href="#aboutContainer">About</a></li>
+					<li><a href="#blogContainer">Blog</a></li>
+					<li><a href="#contactContainer">Contact</a></li>
+				</ul>
+				<p><a href="#">Sign in</a></p>
+				<button id="register"><a href="#">Register</a></button>
+			</div>
+			<!--Home screen-->
+			<section class="heroContainer">
+				<div class="heroText">
+					<h1>Quickest & Safest Delivery</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis vitae quia adipisci libero.</p>
+				</div>
+				<div class="box">
+					<p class="boxText">Enter Tracking Number</p>
+					<form>
+						<input type="text" placeholder="Enter Tracking Number">
+						<input type="submit" value="Track">
+					</form>
+				</div>
+			</section>
+		</section>
+
+		<!--services section-->
+		<section id="serviceContainer">
+			<div class="serviceHeader">
+				<h2>We guarantee fast and safe transport for your packages</h2>
+			</div>
+			<div class="serviceWrapper">
+				<div class="serviceWrapperText one">
+					<i class="fa-solid fa-plane-arrival"></i>
+					<h3>Air Freight</h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, adipisci!</p>
+				</div>
+				<div class="serviceWrapperText two">
+					<i class="fa-solid fa-ship"></i>
+					<h3>Ocean Freight</h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, adipisci!</p>
+				</div>
+				<div class="serviceWrapperText three">
+					<i class="fa-solid fa-warehouse"></i>
+					<h3>Warehousing</h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, adipisci!</p>
+				</div>
+				<div class="serviceWrapperText four">
+					<i class="fa-solid fa-comments-dollar"></i>
+					<h3>Share & Earn</h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, adipisci!</p>
+				</div>
+			</div>
+		</section>
+
+		<!--about/values section-->
+		<section id="aboutContainer">
+			<div class="aboutWrapper first">
+				<img class="pic" src="./images/pexels-albin-berlin-906982.jpg" alt="boxtape">
+				<div class="aboutWrapperText">
+					<h3>Caution from point of Prochure to Client's Destination</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, deleniti!</p>
+				</div>
+			</div>
+			<div class="aboutWrapper">
+				<img class="pic" src="./images/pexels-kindel-media-6868621.jpg" alt="">
+				<div class="aboutWrapperText">
+					<h3>Swift and Time conscious</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aliquid. Lorem ipsum dolor sit amet consectetur.</p>
+				</div>
+			</div>
+			<div class="aboutWrapper">
+				<img class="pic" src="./images/pexels-shvets-production-9052458.jpg" alt="">
+				<div class="aboutWrapperText">
+					<h3>Reliable Logistics & Transport Solutions</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, modi.</p>
+				</div>
+			</div>
+			<div class="aboutWrapper last">
+				<img class="pic" src="./images/pexels-pixabay-259200.jpg" alt="">
+				<div class="aboutWrapperText">
+					<h3>100% Money-back Guarantee applies</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, modi.</p>
+				</div>
+			</div>
+		</section>
+
+		<!--process section-->
+		<section id="blogContainer">
+			<div class="blogWrapper">
+				<img class="blogPic" src="./images/pexels-nataliya-vaitkevich-6214480.jpg" alt="blogcover">
+				<h4 class="blogWrapperText"><a href="#">Consumer Packaged Goods</a></h4>
+			</div>
+			<div class="blogWrapper">
+				<img class="blogPic" src="./images/pexels-mart-production-7706564.jpg" alt="blogcover">
+				<h4 class="blogWrapperText"><a href="#">Riders</a></h4>
+			</div>
+			<div class="blogWrapper">
+				<img class="blogPic" src="./images/pexels-tiger-lily-4483608.jpg" alt="blogcover">
+				<h4 class="blogWrapperText"><a href="#">WareHousing</a></h4>
+			</div>
+		</section>
+
+
+		<!--contact section-->
+		<section id="contactContainer">
+			<h3 class="contactContainerText">Contact Us</h3>
+			<form id="contactForm">
+				<p>Name</p>
+				<input type="text" placeholder="Your Name"></p>
+				<p>Email</p>
+				<input type="text" placeholder="Your Email Address">
+				<p>Message</p>
+				<textarea name="" id="message" placeholder="Type here.." rows="10"></textarea>
+				<input type="submit" id="sub" value="Submit">
+			</form>
+			<div class="contactLink">
+				<!--<p>Rate us <input type="range" max="10" mid="5" value="7"></p>-->
+				<i class="fa-brands fa-linkedin"></i>
+				<i class="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-facebook"></i>
+				<i class="fa-brands fa-youtube"></i>
+				<i class="fa-solid fa-envelope"></i>
+			</div>
+		</section>
+
+		<!--footerContainer-->
+		<section class="footerContainer">
+			<div >
+				<ul class="footerWrapper">
+					<li><a href="#">Location</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Privacy Statement</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Cookie Policy</a></li>
+					<li><a href="#">Accessiblity Statement</a></li>
+				</ul>
+			</div>
+			<footer class="attribution">
+				&copy; 2023 ShipBox. All Right Reserved.
+			</footer>
+		</section>
+	</main>
+	<script src="https://kit.fontawesome.com/ae0471a37d.js" crossorigin="anonymous"></script>
+</body>
+</html>

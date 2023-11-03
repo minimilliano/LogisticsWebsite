@@ -1,0 +1,231 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color: rgba(124, 124, 109, 0.26);
+}
+
+:root{
+	--yellow:rgba(255, 255, 6, 0.849);
+}
+/*styling the homeContainer*/
+#homeContainer{
+	background: url(images/pexels-mart-production-7706410.jpg);
+	background-size: cover;
+	color: #fff;
+}
+.navContainer{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+.navText{
+	font-size: 2rem;
+}
+span{
+	color: var(--yellow);
+}
+.navWrapper{
+	display: flex;
+    list-style-type: none;
+	padding: 0 10rem;
+}
+.navWrapper li{
+    padding: 0 1rem 0 1rem;
+}
+#register{
+	padding: 0.5rem;
+    border: none;
+    margin-left: 1rem;
+    width: 10%;
+    color: white;
+    background-color: var(--yellow);
+	border-radius: 3px;
+}
+#register:hover{
+	background-color: #ccc5;
+	color: #000;
+}
+.heroContainer{
+	margin:10rem 0 5rem 10rem;
+	padding-bottom: 16rem;
+}
+.heroText{
+	width:35%;
+}
+.heroText h1{
+	font-size: 4rem;
+}
+.box{
+	background-color: #fff4;
+	margin-top: 1rem;
+	width: 40%;
+}
+.boxText{
+	padding: 1rem 0 0.5rem 1rem;
+}
+form{
+	padding: 0 0 1rem 1rem;
+}
+input{
+	display: inline-block;
+	box-sizing: border-box;
+	
+}
+input[type ="text"]{
+	background-color: #fff;
+	border: none;
+	outline: none;
+	width: 18rem;
+    height: 2rem;
+    padding: 0 0 0 1rem;
+}
+input[type ="submit"]{
+	border: none;
+	width: 9rem;
+    height: 2rem;
+	background-color: var(--yellow);
+	color:#fff;
+}
+input[type ="submit"]:hover{
+	background-color: #ccc5;
+	color: #000;
+}
+/*serviceContainer styling*/
+#serviceContainer{
+	margin: 0rem 10rem;
+	background-color: white;
+    box-shadow: 10px 10px 10px #ccc5;
+    padding: 4rem 0rem;
+}
+.serviceWrapper{
+	display: flex;
+}
+.serviceHeader{
+	margin: 4rem 13rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.one, .two, .three, .four{
+	background-color: white;
+	box-shadow: 10px 10px 10px #cc9;
+    margin: 0rem 1rem;
+    padding: 4rem 1rem;
+}
+.serviceWrapperText h3{
+	padding: 1rem 0;
+}
+i{
+	color: rgb(43, 171, 139);
+}
+
+/*about styling*/
+#aboutContainer{
+	margin-top: 7rem;
+	background: url(images/pexels-mart-production-7706373.jpg);
+	background-size: cover;
+    background-blend-mode: lighten;
+}
+.aboutWrapper{
+	display: flex;
+    align-items: center;
+	margin: 4rem 0;
+}
+.first{
+	padding-top: 12rem;
+}
+.last{
+	padding-bottom: 12rem;
+}
+.aboutWrapperText{
+	padding:4rem;
+	/*margin: 3rem;*/
+	width: 37%;
+	background-color: #ccc;
+	color: #000;
+	/*box-shadow: 10px 10px 10px #ccc5;*/
+	border-radius: 3px;
+}
+.aboutWrapperText h3{
+	font-size: 1.5rem;
+	padding: 1rem 0;
+}
+.pic{
+	width:30%;
+	box-shadow: 10px 10px 10px #0003;
+	margin-left: 14rem;
+	border-radius: 3px;
+	z-index: 1;
+	/*below 0px linear-gradient(to bottom,rgba(0,0,0,0.0), rgba(0,0,0,0.2))*/
+}
+
+/*blog styling*/
+#blogContainer{
+	display: flex;
+	text-align: center;
+	margin: 5rem;
+	border-radius: 0.5rem;
+}
+.blogPic {
+	width:70%;
+	position: relative;
+    z-index: -1;
+}
+.blogWrapperText{
+	margin-top: -3rem;
+	color: #fff;
+}
+
+/*contactContainer styling*/
+#contactContainer{
+	margin: 0 9rem;
+    background-color: #ccc5;
+    padding: 2rem;
+}
+.contactContainerText, .contactLink{
+	padding: 1rem;
+}
+#message{
+	resize: none;
+    width: 18rem;
+    padding: 1rem;
+    height: 8rem;
+    outline: none;
+}
+#sub{
+	display: block;
+}
+
+/*footerContainer Styling*/
+.footerContainer{
+	font-size: 12px;
+	margin: 3rem 9rem;
+	padding: 2rem 0;
+}
+.footerWrapper{
+	display: flex;
+    justify-content: center;
+}
+.footerWrapper li{
+	list-style-type: none;
+	text-decoration: none;
+	padding: 1rem;
+}
+.attribution{
+	text-align: center;
+}
+
+/*link styling*/
+a, a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+}
+a:active{
+   color: var(--yellow);
+}
